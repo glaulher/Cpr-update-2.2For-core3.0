@@ -1,0 +1,34 @@
+﻿@model Cpr.Web.ViewsModels.CategoriaViewModel
+@{
+    ViewData["Title"] = "Nova categoria";
+}
+
+<!-- Create Modal-->
+<!--  <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="ModalLabel">Adicionar Nova categoria?</h5>
+      <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"><i class="far fa-window-close"></i></span>
+      </button>
+    </div>    
+      <form form id="form" asp-action="Create" asp-controller="Categoria" 
+        data-ajax="true" data-ajax-method="POST" data-ajax-failure="formOnFail"
+        data-ajax-success="window.location = '/Categoria'">  
+        <div class="modal-body">Categoria:
+        <!--  <b> @Html.DisplayNameFor(model => model.Name) </b> -->
+        <!--  <label asp-for="Name"></label> -->
+          <input type="text" class="form-control" asp-for="Name">   
+          <span asp-validation-for="Name" class="text-danger"> </span>   
+        </div>       
+        <div class="modal-footer">           
+          <input type="hidden"  class="form-control" asp-for="Id">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>     
+          <input type="submit" value="Salvar"  class="btn btn-success" />                   
+        </div>
+      </form> 
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Categoria";
+    Layout = "_Layout";
+}
+<div id="divList">
+    
+  @await Component.InvokeAsync("List")
+   
+</div>
+
+@section scripts{
+<!-- Page level plugins -->
+<script src="~/lib/datatables/jquery.dataTables.min.js"></script>
+<script src="~/lib/datatables/dataTables.bootstrap4.min.js"></script>
+<!-- Page level custom scripts -->
+<script src="~/lib/datatables/dataTables-br-edit.js"></script>
+<!-- call modal -->
+<script src="~/js/modal.js"></script>
+
+    }

@@ -1,0 +1,39 @@
+﻿@model Cpr.Web.ViewsModels.CategoriaViewModel
+@{
+    ViewData["Title"] = "Excluir";
+}
+
+<!-- Delete Modal-->
+<!--  <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"> -->
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="ModalLabel">Deseja deletar esta categoria?</h5>
+      <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true"><i class="far fa-window-close"></i></span>
+      </button>
+    </div>         
+    <div class="modal-body">Categoria selecionada: 
+    <!--  <b> @Html.DisplayNameFor(model => model.Name) </b> -->
+    <!--  <label asp-for="Name"></label> -->
+      <b class="text-danger"> 
+        <ul>
+          <li>
+             @Html.DisplayFor(model => model.Name)
+          </li>                  
+        </ul>
+      </b>
+    </div>       
+      <div class="modal-footer">
+        <form form id="form" asp-action="Delete" asp-controller="Categoria" 
+          data-ajax-success="window.location = '/Categoria'" data-ajax="true" 
+          data-ajax-method="POST" data-ajax-failure="formOnFail">            
+          <input type="hidden"  class="form-control" asp-for="Id">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>       
+          <input type="submit" value="Excluir" id="btnDelete" class="btn btn-primary update" /> 
+        </form>        
+      </div>
+    </div>
+  </div>
+</div>
+

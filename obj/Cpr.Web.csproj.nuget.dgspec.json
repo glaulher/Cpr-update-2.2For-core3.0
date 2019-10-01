@@ -1,0 +1,307 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Web/Cpr.Web.csproj": {}
+  },
+  "projects": {
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj",
+        "projectName": "Cpr.DI",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj"
+              },
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj",
+        "projectName": "Cpr.Data",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/Cpr.Data.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj",
+        "projectName": "Cpr.Domain",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Web/Cpr.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Web/Cpr.Web.csproj",
+        "projectName": "Cpr.Web",
+        "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Web/Cpr.Web.csproj",
+        "packagesPath": "/home/glaulher/.nuget/packages/",
+        "outputPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/glaulher/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.DI/Cpr.DI.csproj"
+              },
+              "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj": {
+                "projectPath": "/home/glaulher/Documentos/dev/Projetos/Cpr/src/Cpr.Domain/Cpr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Localization": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
